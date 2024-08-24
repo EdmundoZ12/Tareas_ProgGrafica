@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7D0938-5671-4BB0-9649-B538F9611D52}|T 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\c#\\t 3d\\objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7D0938-5671-4BB0-9649-B538F9611D52}|T 3D.csproj|solutionrelative:objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7D0938-5671-4BB0-9649-B538F9611D52}|T 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\c#\\t 3d\\ventana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7D0938-5671-4BB0-9649-B538F9611D52}|T 3D.csproj|solutionrelative:ventana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7D0938-5671-4BB0-9649-B538F9611D52}|T 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\c#\\t 3d\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7D0938-5671-4BB0-9649-B538F9611D52}|T 3D.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Objeto.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\Objeto.cs",
+              "RelativeDocumentMoniker": "Objeto.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\Objeto.cs",
+              "RelativeToolTip": "Objeto.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAA1wG4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T04:41:08.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ventana.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\Ventana.cs",
+              "RelativeDocumentMoniker": "Ventana.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\Ventana.cs",
+              "RelativeToolTip": "Ventana.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAwwIUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T03:49:15.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T03:32:27.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
