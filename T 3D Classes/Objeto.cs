@@ -2,6 +2,7 @@
 using OpenTK.Mathematics;
 
 namespace T_3D
+    //CREAR LOS METODOS DIBUJAR Y TRASLADAR OSEA UNO PARA DIBUJAR Y OTRO PARA MOVER LOS PUNTOS
 {
     public class Objeto
     {
@@ -45,38 +46,39 @@ namespace T_3D
 
             indices = new int[]
             {
-                // Front face
+                //cara frontal
                 0, 1, 2,
                 2, 3, 0,
                 4, 5, 6,
                 6, 7, 4,
 
-                // Back face
+                //cara trasera
                 8, 9, 10,
                 10, 11, 8,
                 12, 13, 14,
                 14, 15, 12,
 
-                // Top face
+                //cara alta
                 0, 1, 9,
                 9, 8, 0,
                 // Bottom face (base of the vertical part)
+                //parte de la cara media de la parte vertical
                 6, 7, 15,
                 15, 14, 6,
 
-                // Left face (left side of the "T")
+                //cara izquiera del lado izquierdo de la T
                 0, 3, 11,
                 11, 8, 0,
                 3, 2, 10,
                 10, 11, 3,
 
-                // Right face (right side of the "T")
+                //cara derecha del lado derecho de la T
                 1, 5, 13,
                 13, 9, 1,
                 2, 5, 13,
                 13, 10, 2,
 
-                // Connecting the front and back of the vertical part
+                //conectar parte frontal y trasera de la parte vertical
                 4, 7, 15,
                 15, 12, 4,
                 6, 5, 13,

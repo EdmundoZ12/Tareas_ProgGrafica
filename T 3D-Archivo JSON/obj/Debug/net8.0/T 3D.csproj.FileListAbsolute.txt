@@ -1,0 +1,22 @@
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\obj\Debug\net8.0\T 3D.csproj.AssemblyReference.cache
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\obj\Debug\net8.0\T 3D.GeneratedMSBuildEditorConfig.editorconfig
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\obj\Debug\net8.0\T 3D.AssemblyInfoInputs.cache
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\obj\Debug\net8.0\T 3D.AssemblyInfo.cs
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\obj\Debug\net8.0\T 3D.csproj.CoreCompileInputs.cache
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\obj\Debug\net8.0\T 3D.sourcelink.json
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\bin\Debug\net8.0\T 3D.exe
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\bin\Debug\net8.0\T 3D.deps.json
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\bin\Debug\net8.0\T 3D.runtimeconfig.json
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\bin\Debug\net8.0\T 3D.dll
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\bin\Debug\net8.0\T 3D.pdb
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\bin\Debug\net8.0\OpenTK.dll
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\obj\Debug\net8.0\T 3D.csproj.Up2Date
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\obj\Debug\net8.0\T 3D.dll
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\obj\Debug\net8.0\refint\T 3D.dll
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\obj\Debug\net8.0\T 3D.pdb
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\obj\Debug\net8.0\T 3D.genruntimeconfig.cache
+D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\obj\Debug\net8.0\ref\T 3D.dll

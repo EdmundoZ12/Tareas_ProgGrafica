@@ -17,8 +17,9 @@ namespace T_3D
         float Y;
         float Z;
 
-        public Ventana() : base(GameWindowSettings.Default, NativeWindowSettings.Default)
+        public Ventana(float x, float y, float z) : base(GameWindowSettings.Default, NativeWindowSettings.Default)
         {
+            this.X = x; this.Y = y; this.Z = z;
             this.CenterWindow(new Vector2i(1280, 768));
         }
 
@@ -27,10 +28,6 @@ namespace T_3D
             GL.Viewport(0, 0, e.Width, e.Height);
             projection = Matrix4.CreatePerspectiveFieldOfView(MathHelper.DegreesToRadians(45f), (float)e.Width / e.Height, 0.1f, 100f);
             base.OnResize(e);
-        }
-
-        public void setCoordenas(float x,float y,float z) {
-            this.X = x; this.Y = y; this.Z = z;
         }
 
         protected override void OnLoad()
