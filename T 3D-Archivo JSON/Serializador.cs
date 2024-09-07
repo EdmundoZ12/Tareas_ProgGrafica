@@ -20,7 +20,7 @@ namespace T_3D
             System.Threading.Thread.CurrentThread.CurrentUICulture = culture;
 
             // Ruta fija
-            var path = @"D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D\data\escenario.json";
+            var path = @"D:\E.J.Z.R\Universidad\8.-Octavo Semestre\Programacion Grafica\C#\T 3D-Archivo JSON\data\escenario.json";
 
             // Crear un StringBuilder para construir el JSON manualmente
             var sb = new StringBuilder();

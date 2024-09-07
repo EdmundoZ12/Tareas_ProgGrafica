@@ -65,88 +65,88 @@ namespace T_3D
             GL.DeleteShader(vertexShader);
             GL.DeleteShader(fragmentShader);
 
-            //// Crear parte vertical de la letra T
-            //Vector3 centroDeMasa = new Vector3(0.5f, 0, 0); // Definir el centro de masa para la parte vertical
-            //List<Punto> puntosVerticalFrontal = new List<Punto>
-            //{
-            //    new Punto(-0.5f, 1.0f, 0.5f),
-            //    new Punto(0.5f, 1.0f, 0.5f),
-            //    new Punto(0.5f, -1.0f, 0.5f),
-            //    new Punto(-0.5f, -1.0f, 0.5f)
-            //};
-
-            //List<Punto> puntosVerticalTrasero = new List<Punto>
-            //{
-            //    new Punto(-0.5f, 1.0f, -0.5f),
-            //    new Punto(0.5f, 1.0f, -0.5f),
-            //    new Punto(0.5f, -1.0f, -0.5f),
-            //    new Punto(-0.5f, -1.0f, -0.5f)
-            //};
-
-            //Poligono frontalVertical = new Poligono(puntosVerticalFrontal, centroDeMasa);
-            //Poligono traseroVertical = new Poligono(puntosVerticalTrasero, centroDeMasa);
-            //Poligono izquierdaVertical = new Poligono(new List<Punto> { puntosVerticalFrontal[0], puntosVerticalTrasero[0], puntosVerticalTrasero[3], puntosVerticalFrontal[3] }, centroDeMasa);
-            //Poligono derechaVertical = new Poligono(new List<Punto> { puntosVerticalFrontal[1], puntosVerticalTrasero[1], puntosVerticalTrasero[2], puntosVerticalFrontal[2] }, centroDeMasa);
-            //Poligono arribaVertical = new Poligono(new List<Punto> { puntosVerticalFrontal[0], puntosVerticalFrontal[1], puntosVerticalTrasero[1], puntosVerticalTrasero[0] }, centroDeMasa);
-            //Poligono abajoVertical = new Poligono(new List<Punto> { puntosVerticalFrontal[3], puntosVerticalFrontal[2], puntosVerticalTrasero[2], puntosVerticalTrasero[3] }, centroDeMasa);
-
-            //Parte parteVertical = new Parte();
-            //parteVertical.AgregarPoligono("frontal", frontalVertical);
-            //parteVertical.AgregarPoligono("trasero", traseroVertical);
-            //parteVertical.AgregarPoligono("izquierda", izquierdaVertical);
-            //parteVertical.AgregarPoligono("derecha", derechaVertical);
-            //parteVertical.AgregarPoligono("arriba", arribaVertical);
-            //parteVertical.AgregarPoligono("abajo", abajoVertical);
-
-            //_escenario = new Escenario();
-            //_escenario.AgregarParte("parteVertical", parteVertical);
-
-            //// Crear parte horizontal de la letra T
-            //List<Punto> puntosHorizontalFrontal = new List<Punto>
-            //{
-            //    new Punto(-1.0f, 1.5f, 0.5f),
-            //    new Punto(1.0f, 1.5f, 0.5f),
-            //    new Punto(1.0f, 1.0f, 0.5f),
-            //    new Punto(-1.0f, 1.0f, 0.5f)
-            //};
-
-            //List<Punto> puntosHorizontalTrasero = new List<Punto>
-            //{
-            //    new Punto(-1.0f, 1.5f, -0.5f),
-            //    new Punto(1.0f, 1.5f, -0.5f),
-            //    new Punto(1.0f, 1.0f, -0.5f),
-            //    new Punto(-1.0f, 1.0f, -0.5f)
-            //};
-
-            //Poligono frontalHorizontal = new Poligono(puntosHorizontalFrontal, centroDeMasa);
-            //Poligono traseroHorizontal = new Poligono(puntosHorizontalTrasero, centroDeMasa);
-            //Poligono izquierdaHorizontal = new Poligono(new List<Punto> { puntosHorizontalFrontal[0], puntosHorizontalTrasero[0], puntosHorizontalTrasero[3], puntosHorizontalFrontal[3] }, centroDeMasa);
-            //Poligono derechaHorizontal = new Poligono(new List<Punto> { puntosHorizontalFrontal[1], puntosHorizontalTrasero[1], puntosHorizontalTrasero[2], puntosHorizontalFrontal[2] }, centroDeMasa);
-            //Poligono arribaHorizontal = new Poligono(new List<Punto> { puntosHorizontalFrontal[0], puntosHorizontalFrontal[1], puntosHorizontalTrasero[1], puntosHorizontalTrasero[0] }, centroDeMasa);
-            //Poligono abajoHorizontal = new Poligono(new List<Punto> { puntosHorizontalFrontal[3], puntosHorizontalFrontal[2], puntosHorizontalTrasero[2], puntosHorizontalTrasero[3] }, centroDeMasa);
-
-            //Parte parteHorizontal = new Parte();
-            //parteHorizontal.AgregarPoligono("frontal", frontalHorizontal);
-            //parteHorizontal.AgregarPoligono("trasero", traseroHorizontal);
-            //parteHorizontal.AgregarPoligono("izquierda", izquierdaHorizontal);
-            //parteHorizontal.AgregarPoligono("derecha", derechaHorizontal);
-            //parteHorizontal.AgregarPoligono("arriba", arribaHorizontal);
-            //parteHorizontal.AgregarPoligono("abajo", abajoHorizontal);
-
-            //_escenario.AgregarParte("parteHorizontal", parteHorizontal);
-            //// Guardar el escenario en un archivo JSON manualmente
-
-
-            //// Guardar el escenario en un archivo JSON manualmente
-            //Serializador.GuardarEscenarioManual( _escenario);
-            // Cargar el escenario desde el archivo JSON
-            _escenario = Serializador.CargarEscenarioDesdeArchivo("D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\data\\escenario.json");
-            Console.WriteLine(_escenario.GetPartes().Count);
-            // Asegúrate de que el escenario se cargue correctamente
-            if (_escenario == null)
+            // Crear parte vertical de la letra T
+            Vector3 centroDeMasa = new Vector3(0.5f, 0, 0); // Definir el centro de masa para la parte vertical
+            List<Punto> puntosVerticalFrontal = new List<Punto>
             {
-                throw new Exception("No se pudo cargar el escenario desde el archivo.");
-            }
+                new Punto(-0.5f, 1.0f, 0.5f),
+                new Punto(0.5f, 1.0f, 0.5f),
+                new Punto(0.5f, -1.0f, 0.5f),
+                new Punto(-0.5f, -1.0f, 0.5f)
+            };
+
+            List<Punto> puntosVerticalTrasero = new List<Punto>
+            {
+                new Punto(-0.5f, 1.0f, -0.5f),
+                new Punto(0.5f, 1.0f, -0.5f),
+                new Punto(0.5f, -1.0f, -0.5f),
+                new Punto(-0.5f, -1.0f, -0.5f)
+            };
+
+            Poligono frontalVertical = new Poligono(puntosVerticalFrontal, centroDeMasa);
+            Poligono traseroVertical = new Poligono(puntosVerticalTrasero, centroDeMasa);
+            Poligono izquierdaVertical = new Poligono(new List<Punto> { puntosVerticalFrontal[0], puntosVerticalTrasero[0], puntosVerticalTrasero[3], puntosVerticalFrontal[3] }, centroDeMasa);
+            Poligono derechaVertical = new Poligono(new List<Punto> { puntosVerticalFrontal[1], puntosVerticalTrasero[1], puntosVerticalTrasero[2], puntosVerticalFrontal[2] }, centroDeMasa);
+            Poligono arribaVertical = new Poligono(new List<Punto> { puntosVerticalFrontal[0], puntosVerticalFrontal[1], puntosVerticalTrasero[1], puntosVerticalTrasero[0] }, centroDeMasa);
+            Poligono abajoVertical = new Poligono(new List<Punto> { puntosVerticalFrontal[3], puntosVerticalFrontal[2], puntosVerticalTrasero[2], puntosVerticalTrasero[3] }, centroDeMasa);
+
+            Parte parteVertical = new Parte();
+            parteVertical.AgregarPoligono("frontal", frontalVertical);
+            parteVertical.AgregarPoligono("trasero", traseroVertical);
+            parteVertical.AgregarPoligono("izquierda", izquierdaVertical);
+            parteVertical.AgregarPoligono("derecha", derechaVertical);
+            parteVertical.AgregarPoligono("arriba", arribaVertical);
+            parteVertical.AgregarPoligono("abajo", abajoVertical);
+
+            _escenario = new Escenario();
+            _escenario.AgregarParte("parteVertical", parteVertical);
+
+            // Crear parte horizontal de la letra T
+            List<Punto> puntosHorizontalFrontal = new List<Punto>
+            {
+                new Punto(-1.0f, 1.5f, 0.5f),
+                new Punto(1.0f, 1.5f, 0.5f),
+                new Punto(1.0f, 1.0f, 0.5f),
+                new Punto(-1.0f, 1.0f, 0.5f)
+            };
+
+            List<Punto> puntosHorizontalTrasero = new List<Punto>
+            {
+                new Punto(-1.0f, 1.5f, -0.5f),
+                new Punto(1.0f, 1.5f, -0.5f),
+                new Punto(1.0f, 1.0f, -0.5f),
+                new Punto(-1.0f, 1.0f, -0.5f)
+            };
+
+            Poligono frontalHorizontal = new Poligono(puntosHorizontalFrontal, centroDeMasa);
+            Poligono traseroHorizontal = new Poligono(puntosHorizontalTrasero, centroDeMasa);
+            Poligono izquierdaHorizontal = new Poligono(new List<Punto> { puntosHorizontalFrontal[0], puntosHorizontalTrasero[0], puntosHorizontalTrasero[3], puntosHorizontalFrontal[3] }, centroDeMasa);
+            Poligono derechaHorizontal = new Poligono(new List<Punto> { puntosHorizontalFrontal[1], puntosHorizontalTrasero[1], puntosHorizontalTrasero[2], puntosHorizontalFrontal[2] }, centroDeMasa);
+            Poligono arribaHorizontal = new Poligono(new List<Punto> { puntosHorizontalFrontal[0], puntosHorizontalFrontal[1], puntosHorizontalTrasero[1], puntosHorizontalTrasero[0] }, centroDeMasa);
+            Poligono abajoHorizontal = new Poligono(new List<Punto> { puntosHorizontalFrontal[3], puntosHorizontalFrontal[2], puntosHorizontalTrasero[2], puntosHorizontalTrasero[3] }, centroDeMasa);
+
+            Parte parteHorizontal = new Parte();
+            parteHorizontal.AgregarPoligono("frontal", frontalHorizontal);
+            parteHorizontal.AgregarPoligono("trasero", traseroHorizontal);
+            parteHorizontal.AgregarPoligono("izquierda", izquierdaHorizontal);
+            parteHorizontal.AgregarPoligono("derecha", derechaHorizontal);
+            parteHorizontal.AgregarPoligono("arriba", arribaHorizontal);
+            parteHorizontal.AgregarPoligono("abajo", abajoHorizontal);
+
+            _escenario.AgregarParte("parteHorizontal", parteHorizontal);
+            ////// Guardar el escenario en un archivo JSON manualmente
+
+
+            ////// Guardar el escenario en un archivo JSON manualmente
+            ////Serializador.GuardarEscenarioManual( _escenario);
+            //// Cargar el escenario desde el archivo JSON
+            //_escenario = Serializador.CargarEscenarioDesdeArchivo("D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\data\\escenario.json");
+            //Console.WriteLine(_escenario.GetPartes().Count);
+            //// Asegúrate de que el escenario se cargue correctamente
+            //if (_escenario == null)
+            //{
+            //    throw new Exception("No se pudo cargar el escenario desde el archivo.");
+            //}
         }
 
         private void OnRenderFrame(object sender, FrameEventArgs e)

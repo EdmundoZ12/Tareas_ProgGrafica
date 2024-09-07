@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\T 3D.csproj": {}
+    "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\T 3D.csproj": {}
   },
   "projects": {
-    "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\T 3D.csproj": {
+    "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\T 3D.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\T 3D.csproj",
+        "projectUniqueName": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\T 3D.csproj",
         "projectName": "T 3D",
-        "projectPath": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\T 3D.csproj",
+        "projectPath": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\T 3D.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\obj\\",
+        "outputPath": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

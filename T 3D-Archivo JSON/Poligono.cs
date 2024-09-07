@@ -29,7 +29,7 @@ namespace T_3D
         {
             Puntos = puntos;
             CentroDeMasa = centroDeMasa;
-            SetupBuffers();
+            //SetupBuffers();
         }
 
         private void SetupBuffers()
@@ -64,6 +64,7 @@ namespace T_3D
 
         public void Dibujar()
         {
+            SetupBuffers();
             GL.BindVertexArray(_vao);
             GL.DrawArrays(PrimitiveType.TriangleFan, 0, _vertexCount);
             GL.BindVertexArray(0);

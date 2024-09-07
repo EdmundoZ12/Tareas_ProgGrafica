@@ -1,12 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAC9E6A-3415-4B07-AF0A-D0998E33A7FF}|T 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\c#\\t 3d-archivo json\\poligono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAC9E6A-3415-4B07-AF0A-D0998E33A7FF}|T 3D.csproj|solutionrelative:poligono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAC9E6A-3415-4B07-AF0A-D0998E33A7FF}|T 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\c#\\t 3d-archivo json\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAC9E6A-3415-4B07-AF0A-D0998E33A7FF}|T 3D.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAC9E6A-3415-4B07-AF0A-D0998E33A7FF}|T 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\c#\\t 3d-archivo json\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAC9E6A-3415-4B07-AF0A-D0998E33A7FF}|T 3D.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAC9E6A-3415-4B07-AF0A-D0998E33A7FF}|T 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\c#\\t 3d-archivo json\\serializador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAC9E6A-3415-4B07-AF0A-D0998E33A7FF}|T 3D.csproj|solutionrelative:serializador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Poligono.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\Poligono.cs",
+              "RelativeDocumentMoniker": "Poligono.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\Poligono.cs",
+              "RelativeToolTip": "Poligono.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T13:56:44.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T13:55:25.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\MainWindow.cs",
+              "RelativeDocumentMoniker": "MainWindow.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\MainWindow.cs",
+              "RelativeToolTip": "MainWindow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T13:51:13.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Serializador.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\Serializador.cs",
+              "RelativeDocumentMoniker": "Serializador.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\C#\\T 3D-Archivo JSON\\Serializador.cs",
+              "RelativeToolTip": "Serializador.cs",
+              "ViewState": "AgIAAAcAAABAMzMzMzMjwBYAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T13:50:31.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
