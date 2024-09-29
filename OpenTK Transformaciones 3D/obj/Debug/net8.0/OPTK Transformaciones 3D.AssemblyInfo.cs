@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OPTK Transformaciones 3D")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33bd1956b6bf88bd894d3c3bedcb78a8e071d0db")]
 [assembly: System.Reflection.AssemblyProductAttribute("OPTK Transformaciones 3D")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OPTK Transformaciones 3D")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

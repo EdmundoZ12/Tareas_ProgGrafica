@@ -1,50 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\",
+  "WorkspaceRootPath": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\estructurat3d\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\opentk transformaciones 3d\\figuras\\letrat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|solutionrelative:figuras\\letrat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\estructurat3d\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\opentk transformaciones 3d\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\estructurat3d\\figuras\\letrat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|solutionrelative:figuras\\letrat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\opentk transformaciones 3d\\estructura\\objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|solutionrelative:estructura\\objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\estructurat3d\\figuras\\ejes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|solutionrelative:figuras\\ejes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\opentk transformaciones 3d\\estructura\\escenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|solutionrelative:estructura\\escenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\estructurat3d\\estructura\\dto\\vector3dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|solutionrelative:estructura\\dto\\vector3dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\opentk transformaciones 3d\\figuras\\cubo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|solutionrelative:figuras\\cubo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\estructurat3d\\estructura\\punto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|solutionrelative:estructura\\punto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\opentk transformaciones 3d\\figuras\\ejes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|solutionrelative:figuras\\ejes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\estructurat3d\\estructura\\poligono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|solutionrelative:estructura\\poligono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\opentk transformaciones 3d\\estructura\\jsonserializar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|solutionrelative:estructura\\jsonserializar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\estructurat3d\\estructura\\parte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|solutionrelative:estructura\\parte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\opentk transformaciones 3d\\estructura\\parte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|solutionrelative:estructura\\parte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\estructurat3d\\estructura\\objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|solutionrelative:estructura\\objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\opentk transformaciones 3d\\estructura\\poligono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|solutionrelative:estructura\\poligono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\estructurat3d\\estructura\\jsonserializar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|solutionrelative:estructura\\jsonserializar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\opentk transformaciones 3d\\estructura\\punto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|solutionrelative:estructura\\punto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\estructurat3d\\estructura\\escenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|EstructuraT3D.csproj|solutionrelative:estructura\\escenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|d:\\e.j.z.r\\universidad\\8.-octavo semestre\\programacion grafica\\tareas\\opentk transformaciones 3d\\opentk transformaciones 3d\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0986B0-4502-4A3C-BE46-27D7A2202CB2}|OPTK Transformaciones 3D.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ejes.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Figuras\\Ejes.cs",
+              "RelativeDocumentMoniker": "Figuras\\Ejes.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Figuras\\Ejes.cs",
+              "RelativeToolTip": "Figuras\\Ejes.cs",
+              "ViewState": "AgIAABUAAADAzMzMzMwmwCcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T12:47:26.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Escenario.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Estructura\\Escenario.cs",
+              "RelativeDocumentMoniker": "Estructura\\Escenario.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Estructura\\Escenario.cs",
+              "RelativeToolTip": "Estructura\\Escenario.cs",
+              "ViewState": "AgIAACwAAAAAnJmZmZnpv0sAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T12:45:37.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JsonSerializar.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Estructura\\JsonSerializar.cs",
+              "RelativeDocumentMoniker": "Estructura\\JsonSerializar.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Estructura\\JsonSerializar.cs",
+              "RelativeToolTip": "Estructura\\JsonSerializar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T12:45:35.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Objeto.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Estructura\\Objeto.cs",
+              "RelativeDocumentMoniker": "Estructura\\Objeto.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Estructura\\Objeto.cs",
+              "RelativeToolTip": "Estructura\\Objeto.cs",
+              "ViewState": "AgIAAC8AAADAzMzMzMwswGwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T12:45:34.644Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.cs",
-              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\MainWindow.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\MainWindow.cs",
               "RelativeDocumentMoniker": "MainWindow.cs",
-              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\MainWindow.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\MainWindow.cs",
               "RelativeToolTip": "MainWindow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAKMAAACAAQAAAAAwwPQAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T05:47:33.16Z",
+              "WhenOpened": "2024-09-28T12:45:23.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LetraT.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Figuras\\LetraT.cs",
+              "RelativeDocumentMoniker": "Figuras\\LetraT.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Figuras\\LetraT.cs",
+              "RelativeToolTip": "Figuras\\LetraT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T12:49:58.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cubo.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Figuras\\Cubo.cs",
+              "RelativeDocumentMoniker": "Figuras\\Cubo.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Figuras\\Cubo.cs",
+              "RelativeToolTip": "Figuras\\Cubo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:22:36.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Parte.cs",
-              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\Parte.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Estructura\\Parte.cs",
               "RelativeDocumentMoniker": "Estructura\\Parte.cs",
-              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\Parte.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Estructura\\Parte.cs",
               "RelativeToolTip": "Estructura\\Parte.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T05:05:25.725Z",
+              "WhenOpened": "2024-09-28T12:45:33.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Objeto.cs",
-              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\Objeto.cs",
-              "RelativeDocumentMoniker": "Estructura\\Objeto.cs",
-              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\Objeto.cs",
-              "RelativeToolTip": "Estructura\\Objeto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T20:52:23.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Poligono.cs",
-              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\Poligono.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Estructura\\Poligono.cs",
               "RelativeDocumentMoniker": "Estructura\\Poligono.cs",
-              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\Poligono.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Estructura\\Poligono.cs",
               "RelativeToolTip": "Estructura\\Poligono.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T05:05:17.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Ejes.cs",
-              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Figuras\\Ejes.cs",
-              "RelativeDocumentMoniker": "Figuras\\Ejes.cs",
-              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Figuras\\Ejes.cs",
-              "RelativeToolTip": "Figuras\\Ejes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T07:09:07.428Z",
+              "WhenOpened": "2024-09-28T12:45:32.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "JsonSerializar.cs",
-              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\JsonSerializar.cs",
-              "RelativeDocumentMoniker": "Estructura\\JsonSerializar.cs",
-              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\JsonSerializar.cs",
-              "RelativeToolTip": "Estructura\\JsonSerializar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T06:19:58.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Punto.cs",
-              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\Punto.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Estructura\\Punto.cs",
               "RelativeDocumentMoniker": "Estructura\\Punto.cs",
-              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\Punto.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Estructura\\Punto.cs",
               "RelativeToolTip": "Estructura\\Punto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T05:04:51.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LetraT.cs",
-              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Figuras\\LetraT.cs",
-              "RelativeDocumentMoniker": "Figuras\\LetraT.cs",
-              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Figuras\\LetraT.cs",
-              "RelativeToolTip": "Figuras\\LetraT.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T05:48:00.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Vector3DTO.cs",
-              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\DTO\\Vector3DTO.cs",
-              "RelativeDocumentMoniker": "Estructura\\DTO\\Vector3DTO.cs",
-              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\DTO\\Vector3DTO.cs",
-              "RelativeToolTip": "Estructura\\DTO\\Vector3DTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T05:11:06.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T05:03:25.683Z",
+              "WhenOpened": "2024-09-28T12:45:31.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Escenario.cs",
-              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\Escenario.cs",
-              "RelativeDocumentMoniker": "Estructura\\Escenario.cs",
-              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\EstructuraT3D\\Estructura\\Escenario.cs",
-              "RelativeToolTip": "Estructura\\Escenario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\E.J.Z.R\\Universidad\\8.-Octavo Semestre\\Programacion Grafica\\Tareas\\OpenTK Transformaciones 3D\\OpenTK Transformaciones 3D\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T05:05:42.138Z",
+              "WhenOpened": "2024-09-28T12:45:21.861Z",
               "EditorCaption": ""
             }
           ]

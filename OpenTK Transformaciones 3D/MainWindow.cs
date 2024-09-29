@@ -17,6 +17,7 @@ namespace OPTK_Transformaciones_3D
         private int _shaderProgram;
         private float _velocidadTraslacion = 0.5f; // Velocidad de traslación
         private Vector3DTO _desplazamiento = new Vector3DTO(0, 0, 0);
+        private bool rotarParte = true;
 
         public MainWindow() : base(GameWindowSettings.Default, NativeWindowSettings.Default)
         {
@@ -36,11 +37,11 @@ namespace OPTK_Transformaciones_3D
             ejes = new Ejes();
             _escenario = letraT._escenario;
 
-            // Guardar el escenario en un archivo JSON manualmente
-            //JsonSerializar.GuardarComoJson(_escenario, "prueba1");
+            //Guardar el escenario en un archivo JSON manualmente
+            JsonSerializar.GuardarComoJson(_escenario, "prueba1");
 
-            // Cargar el escenario desde el archivo JSON
-             CargarEscenario();
+            //// Cargar el escenario desde el archivo JSON
+            //CargarEscenario();
         }
 
         protected override void OnResize(ResizeEventArgs e)
@@ -71,16 +72,33 @@ namespace OPTK_Transformaciones_3D
             float deltaTime = (float)e.Time; // Tiempo transcurrido desde el último frame
 
             // Rotación continua de la parte horizontal de LetraT1
-            _escenario._Objetos["LetraT1"]._partes["parteHorizontal"].RotarParte(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+            //_escenario._Objetos["LetraT1"]._partes["parteHorizontal"].RotarParte(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
 
             // Manejar entrada de teclado para trasladar el escenario
             ManejarTraslacion(deltaTime);
             // Aplicar la traslación al escenario
-            _escenario.TrasladarEscenario(_desplazamiento);
+
+            //_escenario.TrasladarEscenario(_desplazamiento);
+            _escenario._Objetos["LetraT1"]._partes["parteVertical"].TrasladarParte(_desplazamiento);
+
             _desplazamiento = new Vector3DTO(0, 0, 0); // Resetear desplazamiento
 
             // Manejar rotación del escenario
-            ManejarRotacion(deltaTime);
+            if (KeyboardState.IsKeyDown(Keys.P))
+                rotarParte = !rotarParte;
+
+            if (rotarParte)
+            {
+                ManejarRotacion(deltaTime);
+            }
+            else
+            {
+                ManejarRotacionParte(deltaTime);
+            }
+
+
+
+
         }
 
         private int CrearShaders()
@@ -170,19 +188,100 @@ namespace OPTK_Transformaciones_3D
         private void ManejarRotacion(float deltaTime)
         {
             if (KeyboardState.IsKeyDown(Keys.Left))
+            {
                 _escenario.RotarEscenario(deltaTime * 1.5f, new Vector3DTO(0, 1, 0));
-
+                ejes._objetoEjes.RotarObjeto(deltaTime * 1.5f, new Vector3DTO(0, 1, 0));
+            }
             if (KeyboardState.IsKeyDown(Keys.Right))
+            {
                 _escenario.RotarEscenario(deltaTime * -1.0f, new Vector3DTO(0, 1, 0));
+                ejes._objetoEjes.RotarObjeto(deltaTime * -1.0f, new Vector3DTO(0, 1, 0));
+            }
 
             if (KeyboardState.IsKeyDown(Keys.Up))
             {
-                _escenario._Objetos["LetraT1"]._partes["parteHorizontal"].RotarParte(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
-                _escenario._Objetos["LetraT2"]._partes["parteHorizontal"].RotarParte(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                _escenario.RotarEscenario(deltaTime * 1.0f, new Vector3DTO(1, 0, 0));
+                //_escenario._Objetos["LetraT1"]._partes["parteHorizontal"].RotarParte(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                //_escenario._Objetos["LetraT2"]._partes["parteHorizontal"].RotarParte(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                ejes._objetoEjes.RotarObjeto(deltaTime * 1.0f, new Vector3DTO(1, 0, 0));
             }
 
             if (KeyboardState.IsKeyDown(Keys.Down))
-                _escenario._Objetos["LetraT1"].RotarObjeto(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+            {
+                _escenario.RotarEscenario(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                //_escenario._Objetos["LetraT1"].RotarObjeto(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                ejes._objetoEjes.RotarObjeto(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+            }
+
+            if (KeyboardState.IsKeyDown(Keys.L))
+            {
+                _escenario.RotarEscenario(deltaTime * 1.0f, new Vector3DTO(0, 0, 1));
+                //_escenario._Objetos["LetraT1"]._partes["parteHorizontal"].RotarParte(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                //_escenario._Objetos["LetraT2"]._partes["parteHorizontal"].RotarParte(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                ejes._objetoEjes.RotarObjeto(deltaTime * 1.0f, new Vector3DTO(0, 0, 1));
+            }
+
+            if (KeyboardState.IsKeyDown(Keys.K))
+            {
+                _escenario.RotarEscenario(deltaTime * -1.0f, new Vector3DTO(0, 0, 1));
+                //_escenario._Objetos["LetraT1"].RotarObjeto(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                ejes._objetoEjes.RotarObjeto(deltaTime * -1.0f, new Vector3DTO(0, 0, 1));
+            }
+
+            // Manejo de escalado
+            if (KeyboardState.IsKeyDown(Keys.E))
+                _escenario.EscalarEscenario(new Vector3DTO(1.01f, 1.01f, 1.01f)); // Aumenta en un 1%
+
+            if (KeyboardState.IsKeyDown(Keys.Q))
+                _escenario.EscalarEscenario(new Vector3DTO(0.99f, 0.99f, 0.99f)); // Disminuye en un 1%
+        }
+
+
+        private void ManejarRotacionParte(float deltaTime)
+        {
+            if (KeyboardState.IsKeyDown(Keys.Left))
+            {
+                //_escenario.RotarEscenario(deltaTime * 1.5f, new Vector3DTO(0, 1, 0));
+                _escenario._Objetos["LetraT1"]._partes["parteHorizontal"].RotarParte(deltaTime * 1.5f, new Vector3DTO(0, 1, 0));
+                //ejes._objetoEjes.RotarObjeto(deltaTime * 1.5f, new Vector3DTO(0, 1, 0));
+            }
+            if (KeyboardState.IsKeyDown(Keys.Right))
+            {
+                //_escenario.RotarEscenario(deltaTime * -1.0f, new Vector3DTO(0, 1, 0));
+                _escenario._Objetos["LetraT1"]._partes["parteHorizontal"].RotarParte(deltaTime * -1.0f, new Vector3DTO(0, 1, 0));
+                //ejes._objetoEjes.RotarObjeto(deltaTime * -1.0f, new Vector3DTO(0, 1, 0));
+            }
+
+            if (KeyboardState.IsKeyDown(Keys.Up))
+            {
+                //_escenario.RotarEscenario(deltaTime * 1.0f, new Vector3DTO(1, 0, 0));
+                _escenario._Objetos["LetraT1"]._partes["parteHorizontal"].RotarParte(deltaTime * 1.0f, new Vector3DTO(1, 0, 0));
+                //_escenario._Objetos["LetraT2"]._partes["parteHorizontal"].RotarParte(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                //ejes._objetoEjes.RotarObjeto(deltaTime * 1.0f, new Vector3DTO(1, 0, 0));
+            }
+
+            if (KeyboardState.IsKeyDown(Keys.Down))
+            {
+                //_escenario.RotarEscenario(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                _escenario._Objetos["LetraT1"]._partes["parteHorizontal"].RotarParte(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                //_escenario._Objetos["LetraT1"].RotarObjeto(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                //ejes._objetoEjes.RotarObjeto(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+            }
+
+            if (KeyboardState.IsKeyDown(Keys.L))
+            {
+                //_escenario.RotarEscenario(deltaTime * 1.0f, new Vector3DTO(0, 0, 1));
+                //_escenario._Objetos["LetraT1"]._partes["parteHorizontal"].RotarParte(deltaTime * -1.0f, new Vector3DTO(1, 0, 0));
+                _escenario._Objetos["LetraT1"]._partes["parteHorizontal"].RotarParte(deltaTime * 1.0f, new Vector3DTO(0, 0, 1));
+                //ejes._objetoEjes.RotarObjeto(deltaTime * 1.0f, new Vector3DTO(0, 0, 1));
+            }
+
+            if (KeyboardState.IsKeyDown(Keys.K))
+            {
+                //_escenario.RotarEscenario(deltaTime * -1.0f, new Vector3DTO(0, 0, 1));
+                _escenario._Objetos["LetraT1"].RotarObjeto(deltaTime * -1.0f, new Vector3DTO(0, 0, 1));
+                //ejes._objetoEjes.RotarObjeto(deltaTime * -1.0f, new Vector3DTO(0, 0, 1));
+            }
 
             // Manejo de escalado
             if (KeyboardState.IsKeyDown(Keys.E))
